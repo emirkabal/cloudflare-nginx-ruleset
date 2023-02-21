@@ -2,11 +2,11 @@
 Scripts makes the grab cloudflare ip addresses from https://www.cloudflare.com/ips-v4 and https://www.cloudflare.com/ips-v6 then generate for nginx ruleset and deny other ip addresses exclude cloudflare ip addresses.
 
 ## support 
-- powershellscript (generate.ps1)
-- bashscript (generate.sh)
+- powershellscript
+- bashscript
 
 
-### **Output:**
+### **Output:** (allow-deny)
 ```nginx
 #IPV-4
 allow 173.245.48.0/20;
